@@ -1,0 +1,102 @@
+.menu{
+    padding-top: 56px;
+    padding-bottom: 56px;
+
+    
+    .menu-search{
+        position: fixed;
+        top: 0;
+        width: 100%;
+        padding: 0px;
+        background-color: #fff;
+    }
+    /deep/ .van-search{
+        padding: 10px;
+        overflow: hidden;
+    }
+    .van-search__content{
+        border-radius: 50px;
+    }
+    
+    /deep/ .van-icon{
+        color: #a9643d;
+    }
+    .bg-box{
+        width: 100%;
+        height: 157px;
+    }
+    
+    .bg-img{
+        width: 100%;
+        height: 157px;
+        position: fixed;
+        border-radius: 8px;
+    }
+      .menu-box{
+          display: flex;
+          .menu-aside{
+            flex: 1;
+            padding: 10px 0;
+            .nav-box{
+                width: 75px;
+                height: 70px;
+                position: fixed;
+            }
+            .latte-box{
+                width: 75px;
+                height: 70px;
+                border-right: 1px solid #eee;
+                text-align: center;
+                left: 0;
+                .latte-img{
+                    width: 35px;
+                    height: 35px;
+                    margin: 0 auto;
+                    padding-top: 10px;
+                }
+                .latte-text{
+                    font-size: 14px;
+                    font-weight: bold;
+                }
+            }
+            .active{
+                color: #a9643d;
+                background-color: #fff;
+            }
+          }
+    }
+    .pro-box{
+        flex: 4;
+        margin-top: 10px;
+    }
+    .coll-box-item{
+        display: flex;
+        padding: 10px;
+        background-color: #fff;
+        .coll-img{
+            width: 65px;
+            height: 65px;
+            margin-right: 10px;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        .coll-content{
+            width: calc(~"100% - 70px");
+            .coll-name{
+                margin-top: 5px;
+                color: #a9643d;
+            }
+            .coll-enname{
+                margin-top: 6px;
+                font-size: 14px;
+                color: #ccd;
+                font-family: 'STXingkai';
+            }
+            .coll-price{
+                color: #a9643d;
+                font-family: 'STXinwei';
+                font-weight: bold;
+            }
+        }
+    }
+}

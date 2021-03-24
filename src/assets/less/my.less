@@ -1,0 +1,81 @@
+.my{
+    
+    .my-bg{
+        width: 100%;
+        height: 180px;
+        background-color: #fff;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        position: relative;
+    }
+    .upload-box{
+        opacity: 0;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        .van-uploader__wrapper{
+            height: 100%;
+        }
+        .van-uploader__upload{
+            width: 100%;
+            height: 100%;
+            margin: 0;
+        }
+    }
+
+    .my-box{
+        padding: 10px;
+
+        .my-box-info{
+
+            padding: 10px;
+            background-color: #fff;
+            top: -60px;
+            position: relative;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            .my-info-top{
+                display: flex;
+                margin-bottom: 50px;
+                .my-info-img{
+                    width: 70px;
+                    height: 70px;
+                    background-color: #ccc;
+                    border-radius: 50%;
+                    overflow: hidden;
+                    margin-right: 15px;
+                }
+                .my-info-text{
+    
+                    .my-name{
+                        margin-top: 10px;
+                        font-weight: bold;
+                        color: #a9643d;
+                    }
+                    .my-text{
+                        font-size: 14px;
+                        color: #bbb;
+                        margin-top: 10px;
+                    }
+                }
+            }
+        }
+    }
+    /deep/ .van-cell{
+        border-bottom: 1px solid #F5F6F7;
+        padding: 15px 0;
+        &:last-child{
+          border-bottom: none;
+        }
+        &:active{
+          background-color: transparent;
+        }
+    
+        span{
+          color: #646566;
+        }
+      }
+}

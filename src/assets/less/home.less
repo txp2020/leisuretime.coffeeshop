@@ -1,0 +1,142 @@
+.home{
+  padding:45px 0;
+  .home-nav{
+    display: flex;
+    line-height: 46px;
+  }
+  .t1{
+    font-weight: bold;
+  }
+
+  .t2{
+    color: #a9643d;
+    font-weight: bold;
+    margin-left: 10px;
+  }
+  
+
+  /deep/ .home-search .van-search{
+    padding: 0;
+    border-radius: 17px;
+    overflow: hidden;
+  }
+
+  /deep/ .home-search .van-icon{
+    color: #a9643d;
+  }
+
+  .home-content{
+    padding: 10px 0px 0;
+    // background-color: orangered;
+  }
+
+  .banner-box{
+    background-color: #fff;
+    border-radius: 8px;
+    // overflow: hidden;
+  }
+  .van-notice-bar{
+    height: .7rem;
+  }
+
+  .index-box{
+    position: absolute;
+    right: 8px;
+    bottom: 10px;
+    display: flex;
+    >div{
+      width: 8px;
+      height: 8px;
+      background-color: #fff;
+      margin-right: 5px;
+      border-radius: 4px;
+      &.active{
+        background-color: #a9643d;
+      }
+    }
+  }
+
+  .product-box{
+    margin-top: 10px;
+  }
+
+  .pro-title-box{
+    background-color: #fff;
+    padding: 10px 0;
+  }
+
+  .pro-title{
+    float: left;
+    padding: 0 15px;
+    height: 32px;
+    background-color: #a9643d;
+    color: #fff;
+    line-height: 32px;
+    font-size: 14px;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+  }
+
+  .products{
+    margin-top: 10px;
+  }
+  .img{
+    border-radius: 5px;
+    
+  }
+  .pro-item{
+    width: calc(~"50% - 25px");
+    margin-right: 10px;
+    padding: 10px;
+    background-color: #fff;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    &:nth-child(2n){
+      margin-right: 0;
+    }
+    
+  }
+
+  .pro-info{
+    margin-top: 10px;
+  }
+
+  .pro-name{
+    color: #a9643d;
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  .pro-price{
+    color: #a9643d;
+    font-family: 'STXinwei';
+    font-weight: bold;
+    font-size: 16px;
+  }
+  .pro-hot{
+    font-family: 'STLiti';
+    display: inline-block;
+    color: #fff;
+    padding: 0px 5px;
+    position: relative;
+    top: -5px;
+    background-color: orangered;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 5px;
+  }
+  .pro-more{
+    color: #a9643d;
+    float: right;
+    margin-right: 15px;
+    margin-top: 5px;
+    font-size: 14px;
+  }
+  .pro-enname{
+    color: #ccd;
+    font-size: 14px;
+    font-family: 'STXingkai';
+    padding: 0;
+    margin-bottom: 10px;
+  }
+  
+}

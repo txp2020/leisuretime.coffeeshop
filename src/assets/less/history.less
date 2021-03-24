@@ -1,0 +1,74 @@
+.history{
+    padding-top: 46px;
+    
+    /deep/ .van-icon, .van-nav-bar__text{
+        color: #a9643d;
+      }
+    .cell-list{
+        // margin-bottom: 10px;
+        &:first-child{
+          border-top: 1px dashed #e8e8e8;
+        }
+        &:last-child{
+          margin-bottom: 0;
+        }
+      }
+      
+      .cell-item-box {
+        padding: 5px;
+        padding-top: 15px;
+      }
+      .pro-info-box {
+          padding: 10px;
+        display: flex;
+        background-color: #fff;
+        .pro-img {
+          width: 75px;
+          height: 75px;
+          border-radius: 8px;
+          overflow: hidden;
+        }
+        .pro-info {
+          width: calc(~"100% - 90px");
+          margin-left: 10px;
+          .pro-desc-top {
+            height: 50px;
+            .pro-title {
+              color: #a9643d;
+            }
+            .name {
+              display: flex;
+            }
+            .pro-rule {
+              margin-left: 20px;
+              margin-top: 2px;
+              color: #ccc;
+              font-size: 14px;
+            }
+            .pro-enname {
+              margin-top: 5px;
+              font-size: 14px;
+              font-family: "STXingkai";
+            }
+          }
+          .pro-desc-bot {
+            margin-top: 14px;
+            .pro-price {
+              color: #a9643d;
+              // margin-top: 5px;
+              font-family: "STXinwei";
+            }
+            .pro-num {
+              font-size: 12px;
+              margin-top: 2px;
+              color: #ccc;
+              margin-right: 20px;
+            }
+          }
+        }
+      }
+      .delete-box{
+        height: 14px;
+        width: 14px;
+      }
+}
